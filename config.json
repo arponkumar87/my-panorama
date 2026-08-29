@@ -1,0 +1,23 @@
+```json
+{
+    "default": {
+        "firstScene": "main",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true,
+        "autoRotate": -2,
+        "showControls": true
+    },
+
+    "scenes": {
+        "main": {
+            "title": "My 360° Panorama",
+            "author": "My Website",
+            "type": "equirectangular",
+            "panorama": "panorama.jpg",
+            "hfov": 100,
+            "pitch": 0,
+            "yaw": 0
+        }
+    }
+}
+```
